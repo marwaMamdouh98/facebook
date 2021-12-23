@@ -1,0 +1,867 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-family: 'Oxygen', sans-serif;
+}
+/*start style of header*/
+.header{
+background-color: rgb(87, 87, 216);
+}
+.navbar{
+    width: 98%;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+}
+/*style of logo*/
+.nav_logo{
+    width: 50%;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+
+}
+.face_icon{
+    width: 8%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    color: white;
+    
+}
+.nav_search{
+    width: 55%;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.search_text{
+    width: 45%;
+    color: lightgray;
+    display: flex;
+    justify-content: flex-start;
+}
+.search_icon{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    color: lightgray;
+
+}
+/*second item of nav*/
+.nav_items{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+/*item 1 of nav items*/
+.nav_name{
+    width: 35%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    color: white;
+}
+/*item 2 of nav items*/
+.nav_icons{
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+    color: white;
+}
+.nav_icon1{
+    width: 40%;
+}
+.nav_icon2{
+    width: 20%;
+    position: relative;
+}
+.nav_icon2 >i{
+    font-size: 20px;
+}
+.inner_box{
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    top: -15px;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*item 3 of nav items*/
+.nav_img{
+    width: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.nav_img img{
+    width: 70%;
+    border-radius: 50%;
+}
+/*end style of header*/
+/* start style of home*/
+.home{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/tt52.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 37%;
+    
+
+}
+.bg_home{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    padding: 1px;
+    position: relative;
+}
+/*for content in home*/
+.home_content{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+
+}
+/* fisrt item in content for img*/
+.home_img {
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    height: 150px;
+}
+.home_img img{
+    width: 80%;
+    border-radius: 10px;
+   
+}
+/* second item in content for name*/
+.home_name{
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+   
+}
+/* third item in content for btn and icon*/
+.home_button{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+/*for btn 1*/
+.home_btn1{
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: rgba(250, 250,250, .7);
+    margin: 0px 10px;
+}
+/*for icon  in btn 1*/
+.button_icon1{
+    width: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 7px;
+    
+}
+.button_icon1 .btn_circle{
+    width: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.btn_circle .cir1  ,.btn_circle .cir2 , .btn_circle .cir3{
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 1.5px 0px;
+}
+.button_icon1 .btn_lines{
+    width: 20%;
+    margin-left: 2px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.btn_lines .line1 ,.btn_lines .line2 ,.btn_lines .line3{
+    width: 15px;
+    height: 1px;
+    background-color: black;
+    margin: 2.5px 0px;
+}
+/*for  btn 2*/
+.home_btn2{
+    width: 15%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: rgba(250, 250,250, .7);
+}
+/*for icon  in btn 2*/
+.button_icon2 {
+    width: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+    
+}
+/*for icon */
+.home_icon {
+    width: 6%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+     
+}
+.home_icon i{
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 22px;
+    color: rgb(250, 250,250);
+    
+}
+/*end home*/
+
+/*start cards section*/
+.cards{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+/*start style of first card*/
+.card1_items{
+    width: 28%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 70px;
+}
+/*first item in card1*/
+.into_item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: white;
+    box-shadow:  1px 3px 1px lightgrey;
+    margin-bottom: 30px;
+        
+}
+.intro_logo{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo_icon{
+    width: 8%;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgb(52, 52, 156);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(52, 52, 156);
+    padding: 0px 10px;
+    color: white;
+    margin-right: 5px;
+}
+.logo_name{
+    color: rgb(94, 91, 91);
+}
+.intro_icon{
+    width: 7%;
+    color: rgb(94, 91, 91);
+}
+/*for text in itro */
+.intro_text{
+    padding: 10px 10px;
+    color: rgb(116, 111, 111);
+}
+.intro_text h3{
+    padding: 10px 0px;
+}
+.intro_text p >a{
+    text-decoration: none;
+    color: rgb(51, 128, 201);
+    text-transform: capitalize;
+}
+/* for location*/
+.intro_location{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 8px;
+    color: rgb(51, 128, 201);
+}
+.location_icon{
+    margin-right: 10px;
+}
+/*end style of intro item in card1*/
+.photo_item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: white;
+    box-shadow:  1px 3px 1px lightgrey;
+    margin-bottom: 20px;
+        
+}
+.photo_title{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+}
+.photo_logo{
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.photo_logo .logo_icon{
+    width: 8%;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgb(141, 209, 30);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(141, 209, 30);
+    padding: 0px 10px;
+    color: white;
+    margin-right: 5px;
+}
+.logo_name{
+    color: rgb(94, 91, 91);
+}
+.photo_icon{
+    width: 10%;
+    color: rgb(94, 91, 91);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* for cards of images*/
+.photo_cards{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.photo_card{
+    width: calc(98%/3);
+    margin:  0px 1px ;
+}
+.photo_card img{
+    width: 100%;
+    height: 100px;
+}
+/*end style of photo cards*/
+/* start style of information*/
+.information{
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    margin-top: 10px;
+}
+.information_tittle{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.information_logo{
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.span_logo{
+    color: rgb(172, 168, 168);
+}
+.information_logo .logo_icon{
+    width: 8%;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgb(214, 110, 69);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(214, 110, 69);
+    padding: 0px 10px;
+    color: white;
+    margin-right: 5px;
+}
+.logo_name{
+    color: rgb(94, 91, 91);
+}
+.information_item1{
+    width: 95%;
+    background-color: rgb(240, 236, 236);
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px;
+    border: 1px solid lightgrey;
+}
+.information_item1 .info_icon{
+    width: 10%;
+    font-size: 20px;
+    color:goldenrod;
+}
+.information_item2{
+    width: 95%;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+    border: 1px solid lightgrey;
+    color: gray;
+}
+.information_item2 .info_icon{
+    width: 8%;
+    font-size: 16px;
+}
+/* start style of footer of card1*/
+.footer_card1{
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.foot_list ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+}
+.foot_list ul li{
+    padding: 10px 0;
+    padding-right: 10px;
+    text-transform: capitalize;
+    color: gray;
+
+}
+.second_list li {
+    padding: 0px;
+}
+/*end style of card1 */
+/*start style of card2 */
+.card2_items{
+    width: 50%;
+    margin: auto;
+    margin-top: -12px;
+    display: flex;
+    flex-flow: column wrap;
+    z-index: 1;
+    
+}
+/*style of item 1 of card2*/
+.about_container{
+    width: 100%;
+    margin: auto;
+   background-color: white;
+}
+.about_items{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.about_item{
+    width: calc(96%/6);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    color: grey;
+    margin: 0px 10px;
+}
+.about_icon{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about_text{
+    text-transform: uppercase;
+
+}
+.about_special_icon{
+    color: gray;
+}
+.active_about{
+    position: relative;
+    color: tomato;
+}
+.active_about::after {
+    content: "";
+    width:100%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    bottom: 2px;
+}
+
+/*style of item 2 of card2*/
+.think_items{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 30px;
+    background-color: white;
+}
+.think_buttons{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 15px 0px;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+}
+.think_buttons::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    position: absolute;
+    bottom: -9px;
+    left: 30px;
+    transform: rotate(45deg);
+}
+.think_button1{
+    width: 22%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid lightgrey;
+    color: gray;
+
+}
+.active_btn{
+    border-left: none;
+    color: black;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+.but_icon {
+        width: 20%;
+        margin-left: 2px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        font-size: 20px;
+        margin-right: 5px;
+}  
+.but_icon .line1 ,.but_icon .line2 ,.but_icon .line3 ,.but_icon .line4{
+        width: 15px;
+        height: 2px;
+        background-color: black;
+        margin: 1px 0px;
+}
+.but_text{
+    text-transform: capitalize;
+}
+/*item 2 at think item*/
+.think_content{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0px;
+}
+.think_img{
+    width: 10%;
+}
+.think_img img{
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.think_text{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(182, 181, 181);
+}
+
+.think_icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(182, 181, 181);
+}
+/*end style of think*/
+/*start style of post*/
+.post{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+.post_tittle{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 15px 0px;
+    padding-bottom: 30px;
+}
+.tittle_image{
+    width: 12%;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.tittle_image img{
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.tittle_text{
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18px;
+}
+.tittle_text p >span{
+    color: rgb(20, 132, 238);
+}
+.tittle_text .post_time{
+    padding-top: 5px;
+    color: gray;
+}
+.tittle_icon{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: gray;
+    padding-top: 10px;
+}
+/*item 2 in post for img*/
+.post_img img{
+width: 100%;
+}
+.comment_box{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.comment_box1 {
+    width: 15%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    color: gray;
+}
+.comment_box1 >i ,.comment_box2 >i{
+    padding-right: 7px;
+}
+.comment_box2{
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    color: gray;
+}
+.comment_box3{
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    color: gray;
+}
+/*end style of post*/
+/*end style of card2 */
+.card3_item{
+    width: 15%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+/*style for tittle*/
+.contact_tittle{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 42, 129);
+}
+.contact_icon{
+    width: 15%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 10px;
+}
+.contact_line1 ,.contact_line3{
+    width: 17px;
+    height: 2px;
+    background-color:  rgb(10, 42, 129);
+}
+.contact_line2{
+    font-size: 22px;
+    padding: 1px 0px;
+    padding-top: 2px;
+}
+/*style for items*/
+.contact_items{
+    width: 100%;
+    margin-top: 10px ;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact_item{
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.con_icon_item{
+    position: relative;
+    width: 100%;
+}
+.con_icon_item  a >img{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon_circle{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(19, 230, 19);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+.active_contact a >img{
+    width: 54%;
+
+}
+
+/*start cards section */
